@@ -1,3 +1,3 @@
-# goit-js-hw-04
+# goit-js-hw-08
 
-My first JS experience with Objects.
+My first JS experience with Library's.
