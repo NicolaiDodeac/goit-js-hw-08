@@ -79,11 +79,11 @@ function imageTemplate({ original, preview, description }) {
 </li>`;
 }
 
-function allImagesTemplate(arr) {
+function allImagesTemp(arr) {
   return arr.map(imageTemplate).join('');
 }
 
-const markup = allImagesTemplate(images);
+const markup = allImagesTemp(images);
 galleryEl.insertAdjacentHTML('afterbegin', markup);
 
 galleryEl.addEventListener('click', e => {
